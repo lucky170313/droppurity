@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Droppurity - RO Rental Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Droppurity Logo">
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <div class="nav-links" id="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Droppurity RO on Rent</h1>
+        <p>Pure Water, Hassle-Free Service</p>
+        <button onclick="scrollToBooking()">Book Now</button>
+    </div>
+
+    <!-- Image Section -->
+    <div class="image-section">
+        <img src="ro-image.jpg" alt="RO Water Purifier">
+    </div>
+
+    <!-- Features Section -->
+    <div class="features">
+        <div class="feature">
+            <img src="maintenance-icon.png" alt="Maintenance">
+            <h2>Free Maintenance</h2>
+            <p>We take care of all maintenance at no extra cost.</p>
+        </div>
+        <div class="feature">
+            <img src="installation-icon.png" alt="Installation">
+            <h2>Free Installation</h2>
+            <p>Enjoy hassle-free installation by our professionals.</p>
+        </div>
+        <div class="feature">
+            <img src="filter-icon.png" alt="Filter Replacement">
+            <h2>Free Filter Replacement</h2>
+            <p>Get free filter replacements to ensure pure water always.</p>
+        </div>
+    </div>
+
+    <!-- Booking Section -->
+    <div class="booking" id="booking">
+        <h2>Book Now</h2>
+        <form id="bookingForm">
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            <input type="text" id="address" placeholder="Enter Your Address" required>
+            <input type="tel" id="phone" placeholder="Enter Your Phone Number" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- About Section -->
+    <div class="about">
+        <h2>About Drop Purity</h2>
+        <p>Providing high-quality RO rental services with free maintenance, installation, and filter replacement.</p>
+        <p><strong>Address:</strong> Shiv Puri Colony, Chas, Bokaro, Jharkhand - 827013</p>
+        <p>
+            <strong>Location:</strong> 
+            <a href="https://www.google.com/maps?q=23.629438,86.180752" target="_blank">
+                View on Google Maps
+            </a>
+        </p>
+        <p><strong>Phone:</strong> 7979784087</p>
+        
+        <!-- WhatsApp Chat Button -->
+        <a href="https://wa.me/message/L6HAWPXYFZISL1" target="_blank" class="whatsapp-button">
+            Message Drop Purity on WhatsApp
+        </a>
+    </div>
+
+    <!-- Terms & Conditions Button -->
+    <div class="terms-container">
+        <button onclick="openTerms()">T&C</button>
+    </div>
+
+    <!-- Terms & Conditions Modal -->
+    <div id="termsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeTerms()">&times;</span>
+            <h2>Terms and Conditions</h2>
+            <p>By using our RO rental services, you agree to the following terms:</p>
+            <ul>
+                <li>Free maintenance and installation apply only to subscribed users.</li>
+                <li>Filter replacements are provided as per company policy.</li>
+                <li>Any damages due to mishandling will be charged.</li>
+                <li>Rental plans are subject to availability.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>© 2025 Droppurity | RO Rental Services</p>
+    </div>
+
+    <script src="file.js"></script>
+</body>
+</html>
